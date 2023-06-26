@@ -34,3 +34,15 @@ Process:
 3.Create registration form for user registration having--First name,Last name,email.phone number,profile pic,gender,password.
 4.Create welcome page and connect it to login page.If credentials are valid ok or else redirect to login page again in welcome page.
 
+
+Admin Perspective
+● Create a login page for admin with login credentials
+○ Username - admin
+○ Password - admin
+● After successful login, the admin should get a list of users in the
+bootstrap table with pagination and sorting
+● Add a search filter with name, email, phone number
+● Admin can have access to
+○ Add a user with details same as registration form
+○ Update user details except for email
+○ Delete user
